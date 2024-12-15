@@ -84,7 +84,7 @@ class ScrollableContainer(Widget, can_focus=True, inherit_bindings=False):
         can_focus_children: bool | None = None,
         can_maximize: bool | None = None,
     ) -> None:
-        """
+        """A scrollable container with vertical layout, and auto scrollbars on both axis.
 
         Args:
             *children: Child widgets.
@@ -267,7 +267,7 @@ class ItemGrid(Widget, inherit_bindings=False):
         stretch_height: bool = True,
         regular: bool = False,
     ) -> None:
-        """
+        """A container with grid layout.
 
         Args:
             *children: Child widgets.
